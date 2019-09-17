@@ -1,7 +1,9 @@
 const colors = {
   primary: "#5568FE",
   gray: "#A6ADC6",
-  black: "#181818"
+  lightGray: "#e5e5e5",
+  black: "#181818",
+  shadow: "#b5b5b5"
 };
 
 export default colors;

@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px 1px 0px 0px #d5d5d5;
+  box-shadow: 1px 1px 5px 0px ${colors.shadow};
 
   p {
     font-weight: bold;
@@ -49,11 +49,12 @@ export const AddWrapper = styled.div`
       align-items: center;
       justify-content: center;
       cursor: pointer;
-      box-shadow: 0px 1px 0px 0px #d5d5d5;
+      box-shadow: 1px 1px 3px 0px ${colors.shadow};
+      transition: all 0.5s ease;
 
       &:hover {
-        border-bottom: 1px solid ${colors.primary};
-        color: #fff;
+        box-shadow: 1px 1px 3px 0px ${colors.primary};
+        transition: all 0.5s ease;
       }
     }
 
