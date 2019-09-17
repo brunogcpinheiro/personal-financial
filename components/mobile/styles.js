@@ -37,8 +37,8 @@ export const Wrapper = styled.div`
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px;
+    justify-content: space-evenly;
+    margin: 10px 5px;
     cursor: pointer;
 
     h5 {
