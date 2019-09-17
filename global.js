@@ -8,8 +8,13 @@ const Global = createGlobalStyle`
   }
 
   body {
-    min-height: 100%;
     font-family: Quicksand, cursive, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  a {
+    cursor: pointer;
   }
 `;
 

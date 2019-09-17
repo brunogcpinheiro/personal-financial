@@ -4,11 +4,11 @@ import styled from "styled-components";
 
 import GlobalStyle from "../global";
 
-import Menu from "../components/menu";
+import Menu from "../components/Menu";
 
 const Container = styled.div`
   height: 100%;
-  background-color: #e5e5e5;
+  background-color: #f1f1f1;
   color: $foreground;
   display: grid;
   grid-template-columns: 1.5fr 4fr 2fr;
